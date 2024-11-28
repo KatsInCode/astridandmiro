@@ -1,9 +1,9 @@
 :root {
-  --c1: #ada7a7;
-  --c2: #858080;
-  --c3: #32383d;
-  --c4: #f1e8de;
-  --c5: #2c1e0f;
+  --c1: #5860b8;
+  --c2: #fff098;
+  --c3: #a29cf6;
+  --c4: #474b7b;
+  --c5: #e6eaf5;
   --background: var(--c3);
   --text-color: var(--c4);
 
@@ -33,17 +33,25 @@
     height: 100%;
     width: 100%;
     background-color: var(--c3);
-    color: var(--c4);
+    color: var(--text-color);
   }
 
   #index .index_divider {
     width: var(--divider-size);
-    background-color: cyan;
+    background-color: var(--c2);
   }
 
   #index .index_divider_row {
     height: var(--divider-size);
-    background-color: cyan;
+    background-color: var(--c2);
+  }
+
+  #index td {
+    text-align: center;
+  }
+
+  #index iframe {
+
   }
       
   ::-webkit-scrollbar {
