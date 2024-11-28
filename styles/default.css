@@ -58,12 +58,6 @@
     width: 100%;
     height: 100%;
   }
-
-  #section1 img {
-    float: left;
-    width: 25px;
-    height: 25px;
-  }
       
   ::-webkit-scrollbar {
     width: 10px;

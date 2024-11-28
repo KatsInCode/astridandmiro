@@ -23,11 +23,18 @@
       justify-content: center;
       min-height: 300px;
     }
-  
+
+    div {
+      text-align: center;
+    }
+    
     #section img {
-      float: left;
-      width: 25%;
-      height: 25%;
+      display: inline-block;
+      float: none;
+      width: 20%;
+      height: auto;
+      margin-right: 5px;
+      margin-top: 5px;
     }
         
     ::-webkit-scrollbar {
