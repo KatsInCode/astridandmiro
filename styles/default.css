@@ -66,6 +66,17 @@
     top:0;
     text-align: center;
   }
+
+  #fixed {
+    position: fixed; 
+    bottom: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  #fixed img {
+    padding:1px;
+  }
       
   ::-webkit-scrollbar {
     width: 10px;
