@@ -1,6 +1,6 @@
 :root {
   --c1: #5860b8;
-  --c2: #fff098;
+  --c2: #D3F1DF;
   --c3: #a29cf6;
   --c4: #474b7b;
   --c5: #e6eaf5;
@@ -24,6 +24,14 @@
     min-height: 300px;
   }
 
+  #floating_object {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200%;
+    transform: translateY(-50%);
+  }
+
   #index table {
     position: absolute;
     top: 0;
@@ -32,7 +40,7 @@
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--background);
+    background-image: url("../asset/background/MoonBG.gif");
     color: var(--text-color);
     table-layout:fixed;
   }
@@ -50,6 +58,8 @@
   #index td {
     position: relative;
     word-wrap: break-word;
+    font-style: italic;
+    color: #000000;
     font-size: 12pt;
   }
 
