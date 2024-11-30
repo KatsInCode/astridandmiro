@@ -1,4 +1,3 @@
-// script.js
 const floating_object = document.getElementById('floating_object');
 let position = 0;
 let direction = 1;
