@@ -19,17 +19,11 @@ function setCookie(cname, cvalue, exdays) {
       }
     }
     return "";
-  }
+}
 
-let luv_counter = document.querySelectorAll("#luvcounter");
-let counter = getCookie("counter") ? parseInt(getCookie("counter")) : 0;
+let alerted = getCookie("epilepsy") ? parseInt(getCookie("epilepsy")) : 0;
 
-document.querySelector("#result").innerHTML = counter;
-
-luv_counter.forEach(function(button) {
-    button.addEventListener('click', function() {
-        counter++;
-        document.querySelector("#result").innerHTML = counter;
-        setCookie("counter", counter, 7);
-    });
-});
+if (alerted == 0) {
+    alert("This website may contain epilepsy inducing visual content. Browse at your own risk!");
+    setCookie("epilepsy", 1, 7);
+}
