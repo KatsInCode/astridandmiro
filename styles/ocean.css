@@ -1,0 +1,45 @@
+:root {
+    --c1: #aff0be;
+    --c2: #a6e3cf;
+    --c3: #6fccc9;
+    --c4: #3692b6;
+    --c5: #216485;
+    --background: url(../asset/background/b_2.jpg);
+    --text-color: var(--c4);
+    }
+    
+    body {
+      background: black var(--background);
+      color: var(--text-color);
+      letter-spacing: 0.7px;
+    }
+    
+    #centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+    }
+  
+    #floating_object {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 200%;
+      transform: translateY(-50%);
+    }
+        
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      opacity: 1;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--scrollbar_thumb);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--scrollbar_thumb_hover);
+    }
+    
