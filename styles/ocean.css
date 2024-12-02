@@ -12,6 +12,7 @@
       background: black var(--background);
       color: var(--text-color);
       letter-spacing: 0.7px;
+      overflow-x: hidden;
     }
     
     #centered {
@@ -36,8 +37,6 @@
     }
         
     .fish {
-      width: 50px;
-      height: 50px;
       position: absolute;
       transform: translateY(-50%);
     }

@@ -7,8 +7,8 @@ const fishData = Array.from(fishes).map(() => ({
     positionY: Math.random() * window.innerHeight,
     directionX: Math.random() > 0.5 ? 1 : -1,
     directionY: Math.random() > 0.5 ? 1 : -1,
-    speedX: randomInt(1, 6),
-    speedY: randomInt(1, 4),
+    speedX: randomInt(1, 4) * 1,
+    speedY: randomInt(1, 4) * 1,
     amplitude: Math.random() * 10,
     frequency: 0.05 + Math.random() * 0.01,
 }));
