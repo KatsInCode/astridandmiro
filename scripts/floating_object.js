@@ -15,5 +15,4 @@ function moveObject()
         
     requestAnimationFrame(moveObject);
 }
-
 moveObject();
